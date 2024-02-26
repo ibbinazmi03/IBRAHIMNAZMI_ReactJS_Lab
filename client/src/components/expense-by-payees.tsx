@@ -7,7 +7,7 @@ type ExpenseByPayeeModel = {
   expenseItems : IExpenseItem[];
 }
 
-const ExpenseByPayees = ({expenseItems} : ExpenseByPayeeModel) => {
+ const ExpenseByPayees = ({expenseItems} : ExpenseByPayeeModel) => {
 
   const getTotalExpenseByPayee = (payeeName : string) => {
 
