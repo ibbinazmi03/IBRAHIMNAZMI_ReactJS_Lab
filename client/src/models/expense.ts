@@ -6,7 +6,7 @@ interface IExpenseItem{
   price: number,
   date: Date,
   id: number
-}
+ }
 
 export type IExpenseCreateItem = Omit<IExpenseItem, "id">;
 
