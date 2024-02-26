@@ -11,7 +11,7 @@ type ExpenseCreatorModel = {
   refreshParent : (newExpenseItem : IExpenseItem) => void;
 }
 
-const ExpenseCreator = ({expenseItems, refreshParent} : ExpenseCreatorModel) => {
+ const ExpenseCreator = ({expenseItems, refreshParent} : ExpenseCreatorModel) => {
 
   const [show, setShow] = useState(false);
 
