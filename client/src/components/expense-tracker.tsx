@@ -34,7 +34,7 @@ const ExpenseTracker = () => {
 
   }, []);
 
-  const refreshParent = (newExpenseItem : IExpenseItem) => {
+   const refreshParent = (newExpenseItem : IExpenseItem) => {
 
     setExpenseItems(
       [
