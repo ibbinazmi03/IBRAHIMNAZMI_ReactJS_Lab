@@ -6,7 +6,7 @@ import IExpenseItem from "../models/expense"
 type ExpenseItemsModel = {
 
   expenseItems: IExpenseItem[];
-}
+ }
 
 const ExpenseItems = ({ expenseItems }: ExpenseItemsModel) => {
 
